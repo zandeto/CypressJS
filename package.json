@@ -1,0 +1,26 @@
+{
+  "name": "cypressjs",
+  "version": "1.0.0",
+  "description": "Cypress Fist Interaction",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:tests": "cypress run",
+    "cy:run-dashboard": "npx cypress run --record --key e3159c00-8dc5-46ac-8603-947521182377"
+  },
+  "keywords": [
+    "cypress",
+    "js"
+  ],
+  "author": "AlexPetkov",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.4.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^1.6.2",
+    "prettier": "^2.5.1"
+  },
+  "cypress-cucumber-preprocessor":{
+    "nonGlobalStepDefinitions":false
+  }
+}
