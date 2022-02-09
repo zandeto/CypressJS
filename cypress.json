@@ -1,5 +1,4 @@
 {
-    
     "watchForFileChanges": false,
     "defaultCommandTimeout": 5000,
     "exactTimeout": 60000,
@@ -8,8 +7,12 @@
     "responseTimeout": 15000,
     "failOnStatusCode": false,
     "integrationFolder": "./integration",
-    "ignoreTestFiles": ["*.js", "*.md"],
+    "ignoreTestFiles": [
+        "*.js",
+        "*.md"
+    ],
     "chromeWebSecurity": false,
-    "projectId": "y9arho"
-    
+    "projectId": "y9arho",
+    "theme": "dark",
+    "darkMediaQuery": false
 }
